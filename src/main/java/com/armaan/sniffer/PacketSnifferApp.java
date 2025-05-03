@@ -18,7 +18,6 @@ import org.pcap4j.packet.TcpPacket.TcpHeader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -27,7 +26,6 @@ public class PacketSnifferApp extends Application {
     private static final Logger logger = LoggerFactory.getLogger(PacketSnifferApp.class);
     private static final int SNAPLEN = 65536;
     private static final int TIMEOUT = 10 * 1000;
-    private static final int PACKET_COUNT = 50;
 
     private final ObservableList<PacketInfo> packetList = FXCollections.observableArrayList();
     private final AtomicBoolean isCapturing = new AtomicBoolean(false);
@@ -137,7 +135,12 @@ public class PacketSnifferApp extends Application {
         TableColumn<PacketInfo, String> flagsCol = new TableColumn<>("Flags");
         flagsCol.setCellValueFactory(new PropertyValueFactory<>("flags"));
 
-        tableView.getColumns().addAll(timestampCol, sourceCol, destCol, protocolCol, sizeCol, flagsCol);
+        tableView.getColumns().add(timestampCol);
+        tableView.getColumns().add(sourceCol);
+        tableView.getColumns().add(destCol);
+        tableView.getColumns().add(protocolCol);
+        tableView.getColumns().add(sizeCol);
+        tableView.getColumns().add(flagsCol);
         tableView.setItems(packetList);
 
         return tableView;
@@ -192,6 +195,10 @@ public class PacketSnifferApp extends Application {
                     showAlert("Error during capture: " + e.getMessage());
                     isCapturing.set(false);
                 });
+            } finally {
+                if (handle != null && handle.isOpen()) {
+                    handle.close();
+                }
             }
         });
 
@@ -202,12 +209,7 @@ public class PacketSnifferApp extends Application {
     private void stopCapture() {
         isCapturing.set(false);
         if (handle != null && handle.isOpen()) {
-            try {
-                handle.breakLoop();
-                handle.close();
-            } catch (NotOpenException e) {
-                logger.error("Error closing handle: {}", e.getMessage());
-            }
+            handle.close();
         }
         if (captureThread != null) {
             captureThread.interrupt();

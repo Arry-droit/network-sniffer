@@ -10,6 +10,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
+import java.util.Objects;
 
 public class PacketSniffer {
     private static final Logger logger = LoggerFactory.getLogger(PacketSniffer.class);
@@ -99,8 +100,8 @@ public class PacketSniffer {
 
         IpV4Packet ipV4 = packet.get(IpV4Packet.class);
         if (ipV4 != null) {
-            sourceIP = ipV4.getHeader().getSrcAddr().getHostAddress();
-            destinationIP = ipV4.getHeader().getDstAddr().getHostAddress();
+            sourceIP = Objects.requireNonNullElse(ipV4.getHeader().getSrcAddr().getHostAddress(), "Unknown");
+            destinationIP = Objects.requireNonNullElse(ipV4.getHeader().getDstAddr().getHostAddress(), "Unknown");
 
             if (packet.contains(TcpPacket.class)) {
                 protocol = "TCP";

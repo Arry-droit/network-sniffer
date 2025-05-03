@@ -1,0 +1,2028 @@
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:29.254098
+Source IP: /20.192.44.80
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 67 [bytes]
+  Identification: 46025
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 44
+  Protocol: 6 (TCP)
+  Header checksum: 0x98c8
+  Source address: /20.192.44.80
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 52446 (unknown)
+  Sequence Number: 1465779037
+  Acknowledgment Number: 3001010962
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 501
+  Checksum: 0x91ad
+  Urgent Pointer: 0
+[data (27 bytes)]
+  Hex stream: 17 03 03 00 16 88 01 a8 01 9a dd d2 fc 62 bb 98 2f db cb f3 4f c0 02 cb 49 ae 11
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:29.298947
+Source IP: /192.168.0.107
+Destination IP: /20.192.44.80
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 47496
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x3f24
+  Source address: /192.168.0.107
+  Destination address: /20.192.44.80
+[TCP Header (20 bytes)]
+  Source port: 52446 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 3001010962
+  Acknowledgment Number: 1465779064
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 251
+  Checksum: 0x0554
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:29.833265
+Source IP: /192.168.0.107
+Destination IP: /20.189.173.15
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 158 [bytes]
+  Identification: 15380
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x3b66
+  Source address: /192.168.0.107
+  Destination address: /20.189.173.15
+[TCP Header (20 bytes)]
+  Source port: 53122 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 317986923
+  Acknowledgment Number: 1608671281
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 254
+  Checksum: 0xa368
+  Urgent Pointer: 0
+[data (118 bytes)]
+  Hex stream: 17 03 03 00 71 62 5a b2 4c 87 2e 71 ff c9 f9 d3 ff a1 fd 7c bf 43 e3 91 da 34 7c 17 47 f4 6c 46 1c bc bc 17 b8 28 1b 66 25 f7 ae db 56 64 ed f2 09 89 b5 31 aa e3 16 60 24 9b 13 ce 25 b0 fc 93 e5 b5 ee 04 2e cd e3 13 c6 3f 6d 6b ea 2b e2 b9 53 ad 8b b2 4b 05 9a 55 37 cc 3c 74 1e b4 f4 bd e7 02 be 72 b8 29 ea 4c 9d 5b 19 8c 59 2f 79 42 02 85 6e 9a b0 fd
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:29.835121
+Source IP: /192.168.0.107
+Destination IP: /20.189.173.15
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 79 [bytes]
+  Identification: 15381
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x3bb4
+  Source address: /192.168.0.107
+  Destination address: /20.189.173.15
+[TCP Header (20 bytes)]
+  Source port: 53122 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 317987041
+  Acknowledgment Number: 1608671281
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 254
+  Checksum: 0x80ed
+  Urgent Pointer: 0
+[data (39 bytes)]
+  Hex stream: 17 03 03 00 22 18 22 d3 b3 46 3f cb f4 cf b1 38 b3 75 a3 b6 9e 0e 56 fc 57 30 7c e0 c9 29 36 63 2a c9 79 2b cb e0 66
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:29.835161
+Source IP: /192.168.0.107
+Destination IP: /20.189.173.15
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 1480 [bytes]
+  Identification: 15382
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x363a
+  Source address: /192.168.0.107
+  Destination address: /20.189.173.15
+[TCP Header (20 bytes)]
+  Source port: 53122 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 317987080
+  Acknowledgment Number: 1608671281
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 254
+  Checksum: 0xaf1e
+  Urgent Pointer: 0
+[data (1440 bytes)]
+  Hex stream: 17 03 03 09 1b 9f 43 8b 3f 14 cb 72 4f 33 03 92 96 79 32 97 0f 75 bf 96 66 45 b6 e6 4d 8c 72 01 99 59 87 46 73 51 dd 8d fd d8 b3 7f 35 5e 37 19 1b 7c 0e 6e 6d 3d 02 da 02 83 22 1b ce 24 b5 27 5b 79 10 aa 1f 23 bf d6 cd b9 de 80 6f c1 de 93 20 ed 84 11 d6 5f 20 14 ea c9 51 28 e9 e0 03 ee 92 ea de 11 a0 7a 57 77 b0 9e 21 b1 c9 8d d6 9f af 40 04 33 17 bc 77 4d 21 ad b5 ee 58 24 b6 d4 43 6b 93 e5 f9 bc 57 8a be 41 d8 70 f7 82 b5 19 cc f2 7f a6 a8 92 e3 51 82 52 b2 4d 34 71 54 cc 5c c7 f5 78 4a 67 2a b1 66 e8 42 be b9 6f 4d d2 b5 52 56 12 30 2f 18 e7 6f dc 63 f3 10 22 60 8a d4 33 f4 ba 0e 91 f4 0b b6 d7 c8 25 6f 5d a2 02 0c 2c 56 ab 89 57 82 ee 6d 1c 75 47 16 e7 8e 21 63 02 56 f5 93 c2 0c ca 4e e8 dd b3 3a aa 2a 34 5f 99 3d c7 4a 74 a6 03 36 8e bf 7c 0e 82 4b ad 38 6a 55 be 13 3e ae 48 39 9a de 59 6f e6 e5 72 b8 f0 b6 25 d1 50 e2 54 7b 6b 90 dd 59 23 3b 6e fd 39 71 71 6e 3e bc 72 d6 2c e9 3e 20 45 6c 5d 33 d3 87 bb e5 03 c6 b7 78 f2 d6 cb 6c 81 ba ea 1e 71 de 7b 59 a9 94 24 22 d3 3c c4 b4 7b f6 f7 a9 7c b4 8f 9a 66 6b 3b 72 76 f4 82 3f 74 d9 3d bc 85 cb 40 7f 93 ea 21 ac 1b 5a 17 aa 0e 2e 67 1a bf a1 21 e8 e4 d9 04 16 5b ed 06 e4 91 67 40 b0 c1 da d4 38 a0 e9 e6 ba cb 6c 1c 7f 8c 20 2a 24 1f 59 4e 83 5b b2 e7 d1 53 c4 ab 23 3f bc df 2d f4 73 48 30 dc b3 f9 77 42 6f dd 3c 0c c2 5f 18 be 05 d6 63 32 ad 35 aa f8 74 69 31 38 f7 3d e3 db 43 ff 01 1f f5 33 d7 ae 22 69 c1 bb f4 5f c5 db 16 d7 a5 eb 50 36 c7 da f9 c4 1c 09 7e fb 00 5b c6 4d 0e e9 56 c0 bd 57 3a 8e 43 a0 20 e5 8e 55 40 06 7b 25 94 0a 89 8d f0 ba c6 79 8d 84 13 6a ee 46 a0 3f ad 01 52 6a 46 61 5e 66 22 f1 76 2e 0a 9c 50 c2 f1 a3 19 ca a1 55 ed cf 7a b1 0e f6 0d 2c 13 74 65 39 1c 6e 6e bf ed 30 f9 36 0e 11 22 f6 fe f5 fe 31 9b e4 f9 c7 87 3e ee 68 a2 3e 88 18 19 01 f0 22 ee 6b d8 74 25 22 02 c9 4d b7 51 7c e6 93 07 3b 18 57 7e 41 0a 26 5c e2 eb ee 91 9e 5a ad a2 84 72 28 85 c3 42 3f 3b 99 94 66 5f ca 92 97 ce f6 c5 2e a8 b0 24 37 e4 a6 92 a3 4f dc 55 7c 32 93 c0 d2 1b 6a 3c 87 ac 89 c6 53 d4 d1 d0 dc 08 66 54 04 aa a0 f1 62 43 eb ae dc c6 32 4f e7 b7 a9 27 03 31 7e 11 66 f3 b2 17 04 3b 36 65 cb 49 75 49 33 a6 26 0c 2b c9 42 5b ee 49 8c ac e3 0f eb bb 1c ec 7b bd 89 39 22 0f 8b 4c 1d 90 8c d7 3a 6d 15 87 57 2b 75 46 2f 58 7b 8f 4f 13 ae 40 73 51 c7 a6 94 ac 27 7c 06 d3 5e a3 bc 83 07 7d 99 ad 70 32 d6 77 84 2a 5f 87 77 20 fa 0b ee a9 a1 a9 5b dd b2 11 7e c2 67 90 78 84 0b f3 af cd af 46 9f 10 25 ec 2e 95 9e e9 44 30 65 5f 04 33 85 89 cb 1e af a1 dc 62 75 6e 15 46 67 80 ab c5 18 29 74 cb 9e 3e 4d cb 6b 7a bd dd 69 04 a2 f1 7d e1 21 1a 5d 8b d8 35 a0 9a 6e 7b cb 5b 23 5b dd 57 3b de c7 b9 59 f4 ee 78 0d cf cc ec 99 28 36 4c d3 18 30 48 92 cb 3f e1 43 2a 14 96 86 a5 d8 d0 54 b8 13 11 6d 17 14 36 4a 5b e8 74 a3 f1 25 ac 8a 9e 53 bc b9 83 7d 5e 72 4c 79 ef bf d6 70 63 80 25 29 00 25 7c 9e 8c 3a f2 bc 35 7f 92 ae 77 01 b2 8b 59 d2 a1 47 83 87 b8 ed ba 4e 62 ed 11 6d 79 c2 c3 97 99 84 98 d2 23 05 58 54 5e b9 09 df 96 8e 26 7e 28 58 70 79 f2 71 85 c5 e3 58 7b 04 55 0e 49 20 e1 cb 48 33 55 5e 49 33 55 d1 ec 87 9a db d7 39 0a 3e 8c 49 04 56 6e e9 0c 11 ed 99 33 37 7a c7 71 88 5b 8c 7b 49 4c e7 f0 dd 85 46 30 a6 dc a3 8b 0b 9f 8e 71 f0 57 53 8f dd b8 d6 4d ec d5 85 20 4c 32 98 f1 1e a9 76 12 0d dd d7 65 08 98 e0 b2 0f 65 ac 99 99 c4 81 b8 6a 6f 05 5f cf e1 c3 8d 5c 08 c1 02 5e 0b c6 b2 80 8a 08 3d b4 de e9 8d 1f 91 b9 a1 f5 0d 7f c8 60 ca b4 5f 0b 39 c0 10 80 82 7b 4e a3 a0 5d d2 0f 21 7e 00 82 ad e8 f4 c9 bc 3d 63 94 8f 53 91 ab 0c ba d9 93 b1 c9 ff 00 64 00 90 6b 65 d1 10 16 ae 95 ac 7f 7a 15 95 51 90 75 4c 64 08 81 22 d5 ed 1e ed 62 dc 31 d6 8b e7 5f be f6 25 e3 3a 5c 5e 7a 11 ba 88 c5 d6 c0 28 b0 aa 72 97 c5 0c ea e8 4a aa 1a 6c ad 27 72 1b 44 11 30 a8 f2 7b 8f e3 a4 63 51 b9 c4 5b 91 aa f2 2d 1c 9e a9 66 e6 a3 2a 22 52 d1 9f a9 a4 7c 6d 6a a6 d1 60 ec f3 92 ab a1 cf ec 9c 8a 31 16 9d 98 98 01 97 36 a7 c8 f5 5d 57 fc 36 a0 82 c9 1f a3 7d 73 58 03 ea 35 6b 4a 8f bd 94 c2 88 14 12 7f 37 ef 97 b0 22 17 77 fe b0 c4 c9 e7 a7 2a 18 fa 2e 04 1a 37 e7 9e 5b 3e 86 3f 6a 06 e9 7f e7 f2 fe 7d c4 99 03 e8 5f 25 4b cf 2f 0c 22 72 ae 4d fb 97 9a fd 8c 9b d1 d9 90 52 b0 7c 6b 55 a2 e6 a8 36 18 39 06 fe 49 b0 6e ab ca 2e f7 1d 16 3b 82 30 2b 33 76 b2 49 24 23 a2 f6 a3 4d cb d7 01 f9 72 6b bd e4 12 5e 4c b0 07 c9 55 42 d1 fd 6a 12 21 fa 07 23 a6 2e 82 7a 3d c9 e4 11 38 a9 78 bf cc a9 71 de 5f e2 9d 8c 8c 9e 7e c0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:29.835161
+Source IP: /192.168.0.107
+Destination IP: /20.189.173.15
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 936 [bytes]
+  Identification: 15383
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x3859
+  Source address: /192.168.0.107
+  Destination address: /20.189.173.15
+[TCP Header (20 bytes)]
+  Source port: 53122 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 317988520
+  Acknowledgment Number: 1608671281
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 254
+  Checksum: 0x38db
+  Urgent Pointer: 0
+[data (896 bytes)]
+  Hex stream: 88 b4 b3 84 2d 7b c0 e2 51 43 4d d6 d3 75 c4 d4 46 de 5d 4d 51 79 cc c7 a1 db 0e f9 f8 83 f2 06 ec ed ff 31 24 c7 b0 87 d6 1c ad f5 11 6a 8e 4c 71 38 3c 3f 0e 16 d0 29 44 d2 ea 63 da 2c 03 bc bc a6 d6 ab 72 f3 97 35 d1 54 df 00 e7 ae 3d 7e 81 fd b2 87 96 5b 7b 1b 2d 2f b7 a6 c6 02 cd 97 cd 5a b2 9f aa f8 4c b7 6a b0 b1 ac 05 9b 9f 7e 8e 33 78 6b 6b 1c ff 2e 82 f5 e2 ac cc e2 8a 79 0b 8f f6 f3 fb 6f 47 06 37 fc ed 72 84 4b b3 6f 9c a8 9f 3a 83 b9 e2 67 03 b2 37 94 20 e1 32 8b 62 0a 4d b5 92 41 76 76 c2 ea 03 13 b9 ec 06 a1 c1 d5 5c 02 99 24 2c d8 d1 05 43 61 cf e5 32 91 41 ef 00 ae cf 2b 60 cc cd 42 95 8b 90 cb 62 d2 de 72 ea f8 98 5f 3c 02 41 9f 44 ee 8a 6d eb f2 85 39 18 c0 65 40 7c ae eb 8b 44 bd 9d 44 11 b6 32 14 5c c0 20 90 33 87 34 b1 15 17 62 90 21 3a ef cf cc 96 07 5a bb 39 1d ce 84 71 58 62 51 97 38 1c da 36 77 3d dc fc aa 99 b9 57 f2 1d a7 c6 51 79 8d 1d b4 9d a4 9b 7e 03 50 3f 2d d0 b2 4d e3 38 89 81 61 6e 6b f2 e9 54 cd 2c 8f a1 66 6d 67 98 67 39 9f 5a a2 67 96 0d 47 8d b6 25 89 e4 a0 97 52 7d 77 56 fb a9 7e b2 76 06 f1 2a 45 d0 79 31 ea 4f ca a7 37 42 1b e7 52 31 e0 12 7d 68 42 15 f6 01 03 97 1e a8 ea 7e 95 68 ef 40 a7 6f 6f f4 6b 34 94 04 81 2f 2c 6a 0c fd ab 9b 9b da 11 cc 18 ca d8 03 8f 11 57 3d f0 8b 95 23 3e b9 69 bb 97 62 91 20 95 8a 0d 34 13 4a 36 0a 6c 69 37 41 eb 6d e6 c2 fe 68 d0 fd bc 8c 7d 3d 65 c2 81 51 0d 53 a2 09 14 29 bd b6 f5 27 64 04 c0 98 d3 52 28 f2 e3 a4 b2 92 61 c8 17 98 b3 3b de 50 39 e0 df 25 91 73 af ed 24 07 ba cf ec 9e 7f 8d 7f 91 f7 04 6d 07 bc 33 c0 69 e3 46 93 5d f6 51 ce 53 69 7f 75 ba 3c 34 18 78 08 0d 70 34 a0 de 16 6e ec 4d 2d 57 ef ea db bf 54 08 d8 e6 aa c9 78 15 d8 67 ff 10 5c f2 52 34 be b4 a9 6f 6a b7 11 f2 f9 98 d4 ac 1f 22 43 95 51 8b 9c bb 75 70 67 12 7b 62 77 27 47 52 05 a0 f4 e6 f4 2a 76 b0 e5 f9 48 d1 00 16 03 3e 7b ea 8c c5 7b 47 0c 43 fa 06 99 65 06 3f 56 d2 ed 37 a5 d5 2b cb fe 73 d9 9d c2 12 c5 ea 73 db 86 33 b6 4e 5f 62 8a 16 00 5c 98 21 b2 46 c9 7b e0 65 10 47 b8 ed b0 39 b7 99 1f d3 fb 5f 10 17 74 e0 e8 37 6f 1a 03 83 54 b6 9f 43 2f 78 6e db 1a e3 9b 30 d0 8e 90 26 b6 ee 55 7f 12 aa 72 11 8c 2d 09 4c 06 51 c7 50 53 0e 56 11 30 ba 0b 3e 18 d3 6e 4c 38 1c 63 6b 3b b7 9a 70 f3 bb 8b 46 ea e5 46 12 b1 82 98 c5 e0 94 72 27 8b 9c 65 f6 39 31 ec 89 66 38 27 34 2b 4f aa cf 22 16 d8 76 ad f1 cf ca bd 98 9a 50 e7 8b 34 38 1a bd e4 67 7d a9 30 96 d2 aa fe 36 ec ea ea ff 70 c6 32 74 d2 ac 62 a9 32 69 66 8e 50 34 2c c4 89 40 6b ed b1 96 a7 6c 74 b0 57 f2 9e 45 53 f2 19 3d a4 bb c5 7b 86 71 d9 60 0e bf 9f 93 68 96 18 33 21 10 79 31 8d cc 0b 21 35 1b 5f 05 77 77 ed db 6f 79 3d 50 24 a2 0d ea ff c5 11 22 76 e9 2b bd 89 93 ff 37 f9 e2 9a 18 b1 fa 2a e2 f0 32 7a a2 91 6e 61 30 69 7b 9d b1 1f 58
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:30.060557
+Source IP: /20.189.173.15
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 46060
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 106
+  Protocol: 6 (TCP)
+  Header checksum: 0xda03
+  Source address: /20.189.173.15
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53122 (unknown)
+  Sequence Number: 1608671281
+  Acknowledgment Number: 317987080
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16381
+  Checksum: 0x2faa
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:30.060557
+Source IP: /20.189.173.15
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 79 [bytes]
+  Identification: 46061
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 106
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9db
+  Source address: /20.189.173.15
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53122 (unknown)
+  Sequence Number: 1608671281
+  Acknowledgment Number: 317987080
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16381
+  Checksum: 0x67a6
+  Urgent Pointer: 0
+[data (39 bytes)]
+  Hex stream: 17 03 03 00 22 af 77 ca 41 db 19 c9 f7 6f 77 54 e0 ec 28 79 7d d5 9a 42 b4 84 f4 a3 d6 7d 32 09 3f 99 01 89 3b 9e f9
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:30.060557
+Source IP: /20.189.173.15
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 46062
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 106
+  Protocol: 6 (TCP)
+  Header checksum: 0xda01
+  Source address: /20.189.173.15
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53122 (unknown)
+  Sequence Number: 1608671320
+  Acknowledgment Number: 317988520
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16385
+  Checksum: 0x29df
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:30.101649
+Source IP: /192.168.0.107
+Destination IP: /20.189.173.15
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 15384
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x3bd8
+  Source address: /192.168.0.107
+  Destination address: /20.189.173.15
+[TCP Header (20 bytes)]
+  Source port: 53122 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 317989416
+  Acknowledgment Number: 1608671320
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 253
+  Checksum: 0x6563
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:30.132894
+Source IP: /20.189.173.15
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 46063
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 106
+  Protocol: 6 (TCP)
+  Header checksum: 0xda00
+  Source address: /20.189.173.15
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53122 (unknown)
+  Sequence Number: 1608671320
+  Acknowledgment Number: 317989416
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16382
+  Checksum: 0x2662
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:30.332802
+Source IP: /20.189.173.15
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 139 [bytes]
+  Identification: 46064
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 106
+  Protocol: 6 (TCP)
+  Header checksum: 0xd99c
+  Source address: /20.189.173.15
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53122 (unknown)
+  Sequence Number: 1608671320
+  Acknowledgment Number: 317989416
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16382
+  Checksum: 0x0af3
+  Urgent Pointer: 0
+[data (99 bytes)]
+  Hex stream: 17 03 03 00 5e 7c 46 bd f0 7d 78 0d b9 e8 60 4b dd 7e a5 87 e3 6a cf a0 5e 60 58 78 75 9e 1d 0c a2 8d c5 5c cd 1e 02 fb 0e 12 08 10 2d f5 a4 9f 6c fb a0 17 93 dc c4 af 1a 7c 70 df 71 51 43 e9 09 29 34 78 47 f5 8b 82 3e 9b 48 e3 38 9f 00 09 4d 31 8b 42 27 81 e7 11 3d f3 cf 3a e1 9e 03 4f 8f 1e 59
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:30.334095
+Source IP: /192.168.0.107
+Destination IP: /20.189.173.15
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 75 [bytes]
+  Identification: 15385
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x3bb4
+  Source address: /192.168.0.107
+  Destination address: /20.189.173.15
+[TCP Header (20 bytes)]
+  Source port: 53122 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 317989416
+  Acknowledgment Number: 1608671419
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 253
+  Checksum: 0xb7f4
+  Urgent Pointer: 0
+[data (35 bytes)]
+  Hex stream: 17 03 03 00 1e fe cc ea 5e c2 1f 42 49 a0 5a 65 d6 d1 3e e5 22 ee 1a 47 1b 13 95 f9 03 d7 65 e0 56 39 c1
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:30.692796
+Source IP: /20.189.173.15
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 46065
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 106
+  Protocol: 6 (TCP)
+  Header checksum: 0xd9fe
+  Source address: /20.189.173.15
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53122 (unknown)
+  Sequence Number: 1608671419
+  Acknowledgment Number: 317989451
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16381
+  Checksum: 0x25dd
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:34.748058
+Source IP: /192.168.0.107
+Destination IP: /20.192.44.80
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 71 [bytes]
+  Identification: 47497
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x3f04
+  Source address: /192.168.0.107
+  Destination address: /20.192.44.80
+[TCP Header (20 bytes)]
+  Source port: 52457 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 3194067993
+  Acknowledgment Number: 2001942244
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 251
+  Checksum: 0xf00c
+  Urgent Pointer: 0
+[data (31 bytes)]
+  Hex stream: 17 03 03 00 1a 9e 57 41 fa ec 83 b4 96 dc 4c 47 80 1a a0 c1 b4 5f d7 39 f1 0d 86 eb a4 13 2f
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:34.791555
+Source IP: /20.192.44.80
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 58285
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 44
+  Protocol: 6 (TCP)
+  Header checksum: 0x68ff
+  Source address: /20.192.44.80
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 52457 (unknown)
+  Sequence Number: 2001942244
+  Acknowledgment Number: 3194068024
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 501
+  Checksum: 0xd445
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:36.214707
+Source IP: /192.168.0.107
+Destination IP: /20.192.44.80
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 71 [bytes]
+  Identification: 47498
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x3f03
+  Source address: /192.168.0.107
+  Destination address: /20.192.44.80
+[TCP Header (20 bytes)]
+  Source port: 52446 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 3001010962
+  Acknowledgment Number: 1465779064
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 251
+  Checksum: 0x571b
+  Urgent Pointer: 0
+[data (31 bytes)]
+  Hex stream: 17 03 03 00 1a 4e 70 a5 8f 3d 53 93 14 04 dc bc af b9 76 48 09 b3 8c 76 db f1 56 0a e3 60 64
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:36.256735
+Source IP: /20.192.44.80
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 46026
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 44
+  Protocol: 6 (TCP)
+  Header checksum: 0x98e2
+  Source address: /20.192.44.80
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 52446 (unknown)
+  Sequence Number: 1465779064
+  Acknowledgment Number: 3001010993
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 501
+  Checksum: 0x043b
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:37.129239
+Source IP: /192.168.0.107
+Destination IP: /20.189.173.6
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 41 [bytes]
+  Identification: 64075
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x7dac
+  Source address: /192.168.0.107
+  Destination address: /20.189.173.6
+[TCP Header (20 bytes)]
+  Source port: 53123 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 2761321982
+  Acknowledgment Number: 2367995327
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 254
+  Checksum: 0xfd46
+  Urgent Pointer: 0
+[data (1 bytes)]
+  Hex stream: 00
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:37.361316
+Source IP: /20.189.173.6
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 17326
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 107
+  Protocol: 6 (TCP)
+  Header checksum: 0x493f
+  Source address: /20.189.173.6
+  Destination address: /192.168.0.107
+[TCP Header (32 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53123 (unknown)
+  Sequence Number: 2367995327
+  Acknowledgment Number: 2761321983
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16382
+  Checksum: 0x6304
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 2761321982 RE: 2761321983]
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:38.962522
+Source IP: /192.168.0.107
+Destination IP: /20.189.173.6
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 125 [bytes]
+  Identification: 64076
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x7d57
+  Source address: /192.168.0.107
+  Destination address: /20.189.173.6
+[TCP Header (20 bytes)]
+  Source port: 53123 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 2761321983
+  Acknowledgment Number: 2367995327
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 254
+  Checksum: 0x305b
+  Urgent Pointer: 0
+[data (85 bytes)]
+  Hex stream: 17 03 03 00 50 0b a7 cc 43 34 78 7e 24 0e 2f 11 90 76 e7 b8 9a f9 08 7e f9 eb 59 d7 6b 82 7c ed ca 48 e0 4a 62 1f de ab 65 c2 1b c6 40 56 cb 3a 9b 79 92 cb c9 51 0b 92 2e cc fc 84 a6 f4 e3 20 f3 0f 72 10 62 0b c6 9c 06 ea dd d4 0c 55 77 5c ca 33 e4 91 7e
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:38.964829
+Source IP: /192.168.0.107
+Destination IP: /20.189.173.6
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 79 [bytes]
+  Identification: 64077
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x7d84
+  Source address: /192.168.0.107
+  Destination address: /20.189.173.6
+[TCP Header (20 bytes)]
+  Source port: 53123 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 2761322068
+  Acknowledgment Number: 2367995327
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 254
+  Checksum: 0x8933
+  Urgent Pointer: 0
+[data (39 bytes)]
+  Hex stream: 17 03 03 00 22 13 a4 7d 00 45 c0 6d 3d d5 16 b5 1a a1 d1 f6 55 a5 0b 27 63 24 7a b3 01 41 e1 95 d6 e6 c9 f2 b6 d1 18
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:38.964886
+Source IP: /192.168.0.107
+Destination IP: /20.189.173.6
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 915 [bytes]
+  Identification: 64078
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x7a3f
+  Source address: /192.168.0.107
+  Destination address: /20.189.173.6
+[TCP Header (20 bytes)]
+  Source port: 53123 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 2761322107
+  Acknowledgment Number: 2367995327
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 254
+  Checksum: 0x6bf3
+  Urgent Pointer: 0
+[data (875 bytes)]
+  Hex stream: 17 03 03 03 66 ff 57 78 95 3b 05 0e c9 10 e7 8f da af 82 46 05 82 09 45 0e ad eb bb 75 ea 21 8f f1 05 a3 31 01 de c5 49 be 3c 6d 45 56 36 1d 66 4a 0c 4b 94 90 a7 f4 57 74 61 af 4e c7 8d 08 75 b7 87 b4 dd 13 c7 5c 5a 72 3f ef 0c 7f 09 ee eb 3d 08 e3 d8 e8 c9 e2 c9 97 da 98 4c 7b 18 21 5a b8 58 3c 82 89 27 92 b5 b3 c7 bc 31 75 d1 b5 b9 ef 46 f5 43 df 5a 2d 97 69 40 6f 79 51 68 24 9f d5 9a e7 e7 41 a0 7a 24 64 10 9b 42 c9 b6 3c 26 ea 89 c1 3c 14 75 72 27 48 06 25 b9 3c d7 1f 6b df da 87 54 e5 41 2d be 2b 4b 7a 09 b8 ce 68 57 59 8d d9 d4 b0 78 10 6a 79 59 8b 18 2d d5 bd a5 44 8f fa 1b 44 c6 b1 f3 79 3b 6f 09 fd d5 a6 fc b4 c9 c5 6a 3b fc a9 98 0f b1 51 c4 eb 36 96 5b f1 8e 0a b0 fc c8 88 07 ad 05 0b 4c 8b 8f a2 b9 f1 3a d7 b4 ff 04 69 e6 83 d5 df 68 c8 53 55 c7 9a e9 14 77 43 dc c2 78 fe 1d 68 e3 bb f2 48 6f 7a d2 8e 57 ae 91 82 7d 57 6b f0 cd b1 b0 18 39 bc 24 d7 7b d7 46 1b 10 44 89 b8 a0 08 ce 99 e0 f7 31 4b 52 29 aa 62 5f 61 27 18 0e 9b 08 e2 99 44 ab 34 e6 e0 1d ca 52 b9 6d 07 8a 17 aa 2f bf 87 29 bf d1 92 ef cd e7 03 dc 35 d0 ca 78 de d7 e2 e1 01 59 8c 2a e0 74 9a 04 4c cd bf b6 94 06 17 ab ea 72 fc ca 9f ec 8c 1a 66 4f b5 47 6f 20 93 dc 0a c6 f2 1e c3 65 fd 07 9e c8 44 f4 79 a1 7f 29 69 3e 54 d2 f6 13 6a 92 cc d3 9e a6 7e f5 ac 30 74 18 4e 07 e8 d1 02 7e 40 10 1f 7b 50 00 ef 7d 47 c8 95 56 92 de b2 78 d6 e1 89 a2 6e eb c9 c5 f6 70 ce c3 08 b4 92 86 f4 07 91 98 19 6f a7 8d 51 9d d5 9c c2 23 f3 f5 ed 2b 10 4e a2 84 2c fe 47 c9 36 cb e7 74 aa f5 e0 a5 71 33 b2 ce 43 b0 fd 3c 5c f0 a2 d5 8f 93 e0 97 f6 07 37 05 78 26 a2 ba 12 67 db 93 58 bd 23 63 2c 7e 06 3f c9 1f 12 cd 18 e4 28 0a 70 3d d1 38 73 18 34 76 3c f0 d3 e6 7c 1f 83 ea 89 4f bd 80 1f b2 18 d1 f6 5e 25 ae f3 b5 78 84 79 c7 9a 82 e6 65 c3 75 b2 ba 0e 0c 62 6d e4 98 12 16 4f 35 a3 5c 5f 78 9a 1f 2e 9d 3b 17 4a 16 f0 5d 5b aa 6a be 8f 3c 4c df cd a9 ec 7f e9 18 7a df ae fa 5d 76 e1 c6 a0 1e 2e 6c 06 36 d2 1a 60 1c 04 ab 60 b4 36 7c 22 a4 4a 60 85 51 25 59 c8 c7 00 93 d0 be 41 33 e7 fc fe 30 26 5a b2 3f 39 b4 dc 5e 82 78 6a 50 2e ca e4 44 b0 4f a5 f1 b3 f9 53 cf dd f2 1a fe 38 22 f8 28 88 86 d3 50 8e 81 9c 7f 7a 00 73 15 f7 e2 22 c3 c1 33 30 24 b8 01 67 ec 46 26 46 e9 2a 59 55 19 a8 d6 09 b1 45 3f 44 82 cc 6c 86 40 da ec cd 3d 62 43 15 24 a6 44 27 75 51 f7 56 eb 13 9c cc fa 95 fe 89 5c cf 74 ac be 2e 3d 02 53 de 9d 5e f6 63 d9 27 ba a5 fd 27 3a bf 9a 79 eb c0 74 7f b5 84 76 51 ea f2 df 1a f1 24 87 f8 18 46 a7 c0 e9 30 e4 4c 85 b3 c5 d7 ba ce 66 13 8b a6 e8 9b 45 1a 91 41 ca 1b 67 58 fa a8 9f b6 6c 4b 59 d9 99 9f a2 4d 0d 81 f9 29 ce 15 24 37 fa 7b 21 f4 84 ef 10 8f f8 4d 94 17 09 a1 24 c7 8a 12 48 06 d5 37 bf c2 34 4b 11 da
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:39.29153
+Source IP: /20.189.173.6
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 17327
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 107
+  Protocol: 6 (TCP)
+  Header checksum: 0x494a
+  Source address: /20.189.173.6
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53123 (unknown)
+  Sequence Number: 2367995327
+  Acknowledgment Number: 2761322107
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16381
+  Checksum: 0xbdcb
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:39.29153
+Source IP: /20.189.173.6
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 79 [bytes]
+  Identification: 17328
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 107
+  Protocol: 6 (TCP)
+  Header checksum: 0x4922
+  Source address: /20.189.173.6
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53123 (unknown)
+  Sequence Number: 2367995327
+  Acknowledgment Number: 2761322107
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16381
+  Checksum: 0x4bd0
+  Urgent Pointer: 0
+[data (39 bytes)]
+  Hex stream: 17 03 03 00 22 a6 f0 de 63 bf 37 f7 9a 8a 7a 6b 36 9c 4b ab 93 2b 85 b5 d7 aa 6b d6 da 09 49 e7 90 d8 e0 bb c0 67 5f
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:39.29153
+Source IP: /20.189.173.6
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 17329
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 107
+  Protocol: 6 (TCP)
+  Header checksum: 0x4948
+  Source address: /20.189.173.6
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53123 (unknown)
+  Sequence Number: 2367995366
+  Acknowledgment Number: 2761322982
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16385
+  Checksum: 0xba35
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:39.332298
+Source IP: /192.168.0.107
+Destination IP: /20.189.173.6
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 64079
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x7da9
+  Source address: /192.168.0.107
+  Destination address: /20.189.173.6
+[TCP Header (20 bytes)]
+  Source port: 53123 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 2761322982
+  Acknowledgment Number: 2367995366
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 253
+  Checksum: 0xf939
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:39.589345
+Source IP: /20.189.173.6
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 139 [bytes]
+  Identification: 17330
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 107
+  Protocol: 6 (TCP)
+  Header checksum: 0x48e4
+  Source address: /20.189.173.6
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53123 (unknown)
+  Sequence Number: 2367995366
+  Acknowledgment Number: 2761322982
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16385
+  Checksum: 0x39fd
+  Urgent Pointer: 0
+[data (99 bytes)]
+  Hex stream: 17 03 03 00 5e 3c 6b ed 48 3c b6 d5 f7 02 b2 d8 c7 87 42 3a 54 ab 5a f3 18 09 ee 97 33 2c 6f 07 c2 b4 6a 1e f1 6c 8c e9 4d 1c c3 3a 58 d3 8c 5a ce 3f 38 e0 b9 57 16 2d 5c 03 fe ee 6f 34 b7 d0 70 91 d3 2c 18 db 03 2b 3e 23 d7 58 1b 64 0e a1 90 1e 48 39 66 36 9b 07 aa 89 f6 f0 36 34 6f 4e 29 59 ae
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:39.591128
+Source IP: /192.168.0.107
+Destination IP: /20.189.173.6
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 75 [bytes]
+  Identification: 64080
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x7d85
+  Source address: /192.168.0.107
+  Destination address: /20.189.173.6
+[TCP Header (20 bytes)]
+  Source port: 53123 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 2761322982
+  Acknowledgment Number: 2367995465
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 253
+  Checksum: 0x7d16
+  Urgent Pointer: 0
+[data (35 bytes)]
+  Hex stream: 17 03 03 00 1e 0a c7 e7 ce 88 75 40 19 ef be fa ed d6 40 97 e4 2d 6a a4 7c 7b e3 96 54 5d 75 1b d8 20 e0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:39.892222
+Source IP: /20.189.173.6
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 17331
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 107
+  Protocol: 6 (TCP)
+  Header checksum: 0x4946
+  Source address: /20.189.173.6
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53123 (unknown)
+  Sequence Number: 2367995465
+  Acknowledgment Number: 2761323017
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16385
+  Checksum: 0xb9af
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:40.513261
+Source IP: /20.192.44.80
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 67 [bytes]
+  Identification: 58286
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 44
+  Protocol: 6 (TCP)
+  Header checksum: 0x68e3
+  Source address: /20.192.44.80
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 52457 (unknown)
+  Sequence Number: 2001942244
+  Acknowledgment Number: 3194068024
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 501
+  Checksum: 0xcc0c
+  Urgent Pointer: 0
+[data (27 bytes)]
+  Hex stream: 17 03 03 00 16 ac b3 58 bc 33 b0 02 e2 14 3d d0 20 ae 43 49 73 03 bf a6 4f 50 b2
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:40.558123
+Source IP: /192.168.0.107
+Destination IP: /20.192.44.80
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 47499
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x3f21
+  Source address: /192.168.0.107
+  Destination address: /20.192.44.80
+[TCP Header (20 bytes)]
+  Source port: 52457 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 3194068024
+  Acknowledgment Number: 2001942271
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 250
+  Checksum: 0xd525
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:40.782268
+Source IP: /192.168.0.107
+Destination IP: /35.190.80.1
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 41 [bytes]
+  Identification: 8518
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0xa4b6
+  Source address: /192.168.0.107
+  Destination address: /35.190.80.1
+[TCP Header (20 bytes)]
+  Source port: 53097 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 1887029889
+  Acknowledgment Number: 3429192539
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 252
+  Checksum: 0x4e24
+  Urgent Pointer: 0
+[data (1 bytes)]
+  Hex stream: 00
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:40.812996
+Source IP: /35.190.80.1
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 25187
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, false, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 56
+  Protocol: 6 (TCP)
+  Header checksum: 0xeb8e
+  Source address: /35.190.80.1
+  Destination address: /192.168.0.107
+[TCP Header (32 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53097 (unknown)
+  Sequence Number: 3429192539
+  Acknowledgment Number: 1887029890
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 1046
+  Checksum: 0x9efb
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 1887029889 RE: 1887029890]
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:42.269378
+Source IP: /192.168.0.107
+Destination IP: /20.42.65.85
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 41 [bytes]
+  Identification: 32667
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x64a1
+  Source address: /192.168.0.107
+  Destination address: /20.42.65.85
+[TCP Header (20 bytes)]
+  Source port: 53127 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 137926881
+  Acknowledgment Number: 1938907063
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 254
+  Checksum: 0x529e
+  Urgent Pointer: 0
+[data (1 bytes)]
+  Hex stream: 00
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:42.495573
+Source IP: /20.42.65.85
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 45873
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 100
+  Protocol: 6 (TCP)
+  Header checksum: 0x4d00
+  Source address: /20.42.65.85
+  Destination address: /192.168.0.107
+[TCP Header (32 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53127 (unknown)
+  Sequence Number: 1938907063
+  Acknowledgment Number: 137926882
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16381
+  Checksum: 0x9b53
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 137926881 RE: 137926882]
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:43.294171
+Source IP: /192.168.0.107
+Destination IP: /52.187.79.109
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 41 [bytes]
+  Identification: 19238
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x6a6d
+  Source address: /192.168.0.107
+  Destination address: /52.187.79.109
+[TCP Header (20 bytes)]
+  Source port: 52588 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 3084764311
+  Acknowledgment Number: 1597002566
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 255
+  Checksum: 0x6b85
+  Urgent Pointer: 0
+[data (1 bytes)]
+  Hex stream: 00
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:43.339968
+Source IP: /52.187.79.109
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 8004
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 45
+  Protocol: 6 (TCP)
+  Header checksum: 0xe944
+  Source address: /52.187.79.109
+  Destination address: /192.168.0.107
+[TCP Header (32 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 52588 (unknown)
+  Sequence Number: 1597002566
+  Acknowledgment Number: 3084764312
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 251
+  Checksum: 0x3c86
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 3084764311 RE: 3084764312]
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:45.223951
+Source IP: /20.192.44.80
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 67 [bytes]
+  Identification: 46027
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 44
+  Protocol: 6 (TCP)
+  Header checksum: 0x98c6
+  Source address: /20.192.44.80
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 52446 (unknown)
+  Sequence Number: 1465779064
+  Acknowledgment Number: 3001010993
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 501
+  Checksum: 0x65d1
+  Urgent Pointer: 0
+[data (27 bytes)]
+  Hex stream: 17 03 03 00 16 51 8e 8a 68 8b b8 b2 43 0b e8 1b cd 8e 92 54 9e 28 14 af 47 47 39
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:45.269576
+Source IP: /192.168.0.107
+Destination IP: /20.192.44.80
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 47500
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x3f20
+  Source address: /192.168.0.107
+  Destination address: /20.192.44.80
+[TCP Header (20 bytes)]
+  Source port: 52446 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 3001010993
+  Acknowledgment Number: 1465779091
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 250
+  Checksum: 0x051b
+  Urgent Pointer: 0
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:49.246882
+Source IP: /192.168.0.107
+Destination IP: /204.79.197.254
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 41 [bytes]
+  Identification: 27327
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x3cae
+  Source address: /192.168.0.107
+  Destination address: /204.79.197.254
+[TCP Header (20 bytes)]
+  Source port: 53129 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 841306806
+  Acknowledgment Number: 2590276823
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 250
+  Checksum: 0xee1b
+  Urgent Pointer: 0
+[data (1 bytes)]
+  Hex stream: 00
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:49.262742
+Source IP: /192.168.0.107
+Destination IP: /104.18.32.47
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 41 [bytes]
+  Identification: 14506
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x78d0
+  Source address: /192.168.0.107
+  Destination address: /104.18.32.47
+[TCP Header (20 bytes)]
+  Source port: 52619 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 3111790125
+  Acknowledgment Number: 3100969849
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 255
+  Checksum: 0xf242
+  Urgent Pointer: 0
+[data (1 bytes)]
+  Hex stream: 00
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:49.277829
+Source IP: /104.18.32.47
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 35105
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 55
+  Protocol: 6 (TCP)
+  Header checksum: 0x714e
+  Source address: /104.18.32.47
+  Destination address: /192.168.0.107
+[TCP Header (32 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 52619 (unknown)
+  Sequence Number: 3100969849
+  Acknowledgment Number: 3111790126
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 119
+  Checksum: 0xfd62
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 3111790125 RE: 3111790126]
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:49.277829
+Source IP: /204.79.197.254
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 37925
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 113
+  Protocol: 6 (TCP)
+  Header checksum: 0x223d
+  Source address: /204.79.197.254
+  Destination address: /192.168.0.107
+[TCP Header (32 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53129 (unknown)
+  Sequence Number: 2590276823
+  Acknowledgment Number: 841306807
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16385
+  Checksum: 0x6f45
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 841306806 RE: 841306807]
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:49.341501
+Source IP: /192.168.0.107
+Destination IP: /172.202.65.254
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 41 [bytes]
+  Identification: 33610
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0xc7a8
+  Source address: /192.168.0.107
+  Destination address: /172.202.65.254
+[TCP Header (20 bytes)]
+  Source port: 53130 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 110985150
+  Acknowledgment Number: 884379531
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 250
+  Checksum: 0xe31a
+  Urgent Pointer: 0
+[data (1 bytes)]
+  Hex stream: 00
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:49.353933
+Source IP: /172.202.65.254
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 17547
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 110
+  Protocol: 6 (TCP)
+  Header checksum: 0x185d
+  Source address: /172.202.65.254
+  Destination address: /192.168.0.107
+[TCP Header (32 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53130 (unknown)
+  Sequence Number: 884379531
+  Acknowledgment Number: 110985151
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16385
+  Checksum: 0x6144
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 110985150 RE: 110985151]
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:49.388999
+Source IP: /192.168.0.107
+Destination IP: /204.79.197.222
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 41 [bytes]
+  Identification: 14930
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x6d3b
+  Source address: /192.168.0.107
+  Destination address: /204.79.197.222
+[TCP Header (20 bytes)]
+  Source port: 53128 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 1464528240
+  Acknowledgment Number: 43890765
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 255
+  Checksum: 0x8aa9
+  Urgent Pointer: 0
+[data (1 bytes)]
+  Hex stream: 00
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:49.401588
+Source IP: /204.79.197.222
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 52 [bytes]
+  Identification: 43112
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 113
+  Protocol: 6 (TCP)
+  Header checksum: 0x0e1a
+  Source address: /204.79.197.222
+  Destination address: /192.168.0.107
+[TCP Header (32 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 53128 (unknown)
+  Sequence Number: 43890765
+  Acknowledgment Number: 1464528241
+  Data Offset: 8 (32 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 16385
+  Checksum: 0x8c18
+  Urgent Pointer: 0
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 1 (No Operation)]
+  Option: [Kind: 5 (SACK)] [Length: 10 bytes] [LE: 1464528240 RE: 1464528241]
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:49.754828
+Source IP: /192.168.0.107
+Destination IP: /20.192.44.80
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: e4:fa:c4:3b:1a:1a
+  Source address: f8:54:f6:14:77:f8
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 71 [bytes]
+  Identification: 47501
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 128
+  Protocol: 6 (TCP)
+  Header checksum: 0x3f00
+  Source address: /192.168.0.107
+  Destination address: /20.192.44.80
+[TCP Header (20 bytes)]
+  Source port: 52457 (unknown)
+  Destination port: 443 (HTTPS)
+  Sequence Number: 3194068024
+  Acknowledgment Number: 2001942271
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: true
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 250
+  Checksum: 0x2153
+  Urgent Pointer: 0
+[data (31 bytes)]
+  Hex stream: 17 03 03 00 1a a6 d9 e0 18 38 d8 2d 9f 37 af 87 95 40 6d dd b9 fe da ba 08 3f 9e 7b c8 69 5f
+
+-------------------------------------------------
+Timestamp: 2025-04-24 23:56:49.800564
+Source IP: /20.192.44.80
+Destination IP: /192.168.0.107
+Protocol: TCP
+Raw Packet: [Ethernet Header (14 bytes)]
+  Destination address: f8:54:f6:14:77:f8
+  Source address: e4:fa:c4:3b:1a:1a
+  Type: 0x0800 (IPv4)
+[IPv4 Header (20 bytes)]
+  Version: 4 (IPv4)
+  IHL: 5 (20 [bytes])
+  TOS: [precedence: 0 (Routine)] [tos: 0 (Default)] [mbz: 0]
+  Total length: 40 [bytes]
+  Identification: 58287
+  Flags: (Reserved, Don't Fragment, More Fragment) = (false, true, false)
+  Fragment offset: 0 (0 [bytes])
+  TTL: 44
+  Protocol: 6 (TCP)
+  Header checksum: 0x68fd
+  Source address: /20.192.44.80
+  Destination address: /192.168.0.107
+[TCP Header (20 bytes)]
+  Source port: 443 (HTTPS)
+  Destination port: 52457 (unknown)
+  Sequence Number: 2001942271
+  Acknowledgment Number: 3194068055
+  Data Offset: 5 (20 [bytes])
+  Reserved: 0
+  URG: false
+  ACK: true
+  PSH: false
+  RST: false
+  SYN: false
+  FIN: false
+  Window: 501
+  Checksum: 0xd40b
+  Urgent Pointer: 0
+

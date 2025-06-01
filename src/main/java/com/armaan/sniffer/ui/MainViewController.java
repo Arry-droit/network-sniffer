@@ -1,6 +1,6 @@
 package com.armaan.sniffer.ui;
 
-import com.armaan.sniffer.*;
+import com.armaan.sniffer.MalwareDetector;
 import com.armaan.sniffer.model.ConversationInfo;
 import com.armaan.sniffer.model.PacketInfo;
 import javafx.application.Platform;
@@ -105,8 +105,8 @@ public class MainViewController {
             return new SimpleStringProperty("✓ Safe");
         });
 
-        packetTableView.getColumns().addAll(timestampCol, sourceCol, destCol,
-                protocolCol, sizeCol, flagsCol, malwareCol);
+        packetTableView.getColumns().addAll(
+                List.of(timestampCol, sourceCol, destCol, protocolCol, sizeCol, flagsCol, malwareCol));
         packetTableView.setItems(packetList);
 
         // Conversation Table Columns
@@ -128,9 +128,8 @@ public class MainViewController {
         TableColumn<ConversationInfo, String> convDurationCol = new TableColumn<>("Duration");
         convDurationCol.setCellValueFactory(new PropertyValueFactory<>("duration"));
 
-        conversationTableView.getColumns().addAll(convSourceCol, convDestCol,
-                convProtocolCol, convPacketsCol,
-                convBytesCol, convDurationCol);
+        conversationTableView.getColumns().addAll(
+                List.of(convSourceCol, convDestCol, convProtocolCol, convPacketsCol, convBytesCol, convDurationCol));
         conversationTableView.setItems(conversationList);
     }
 

@@ -123,6 +123,9 @@ public class PacketSniffer {
             }
         }
 
+        // Analyze packet for malware
+        MalwareDetector.DetectionResult result = MalwareDetector.analyzePacket(packet);
+
         return new PacketInfo(
                 handle,
                 sourceIP,
@@ -132,7 +135,10 @@ public class PacketSniffer {
                 destinationPort,
                 packetSize,
                 flags,
-                packet.toString());
+                packet.toString(),
+                result.isMalicious(),
+                result.getReason(),
+                result.getSeverity());
     }
 
     private static String getTcpFlags(TcpPacket.TcpHeader header) {

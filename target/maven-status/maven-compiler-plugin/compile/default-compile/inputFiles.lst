@@ -1,4 +1,13 @@
-C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\sniffer\PacketInfo.java
-C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\com\armaan\sniffer\PacketSnifferApp.java
+C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\com\armaan\sniffer\MalwareDetector.java
+C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\com\armaan\sniffer\model\PacketInfo.java
+C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\com\armaan\sniffer\model\ConversationInfo.java
 C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\com\armaan\sniffer\PacketSniffer.java
 C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\com\armaan\sniffer\PacketInfo.java
+C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\com\armaan\sniffer\threat\ThreatIntelligence.java
+C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\sniffer\PacketInfo.java
+C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\com\armaan\sniffer\PacketSnifferApp.java
+C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\com\armaan\sniffer\alert\AlertManager.java
+C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\com\armaan\sniffer\ui\MainViewController.java
+C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\com\armaan\sniffer\dpi\DeepPacketInspector.java
+C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\com\armaan\sniffer\ml\AnomalyDetector.java
+C:\Users\arrys\Documents\codes\network-sniffer\src\main\java\com\armaan\sniffer\config\SnifferConfig.java

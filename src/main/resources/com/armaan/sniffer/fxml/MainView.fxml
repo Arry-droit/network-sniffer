@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.armaan.sniffer.ui.MainViewController"
+            styleClass="main-container">
+    
+    <!-- Top Menu Bar -->
+    <top>
+        <MenuBar>
+            <Menu text="File">
+                <MenuItem text="Save Capture" onAction="#handleSaveCapture"/>
+                <MenuItem text="Load Capture" onAction="#handleLoadCapture"/>
+                <SeparatorMenuItem/>
+                <MenuItem text="Exit" onAction="#handleExit"/>
+            </Menu>
+            <Menu text="View">
+                <MenuItem text="Show Statistics" onAction="#handleShowStats"/>
+                <MenuItem text="Show Conversations" onAction="#handleShowConversations"/>
+                <MenuItem text="Show Protocol Distribution" onAction="#handleShowProtocolDist"/>
+            </Menu>
+            <Menu text="Tools">
+                <MenuItem text="Packet Filter" onAction="#handleShowFilter"/>
+                <MenuItem text="Search Packets" onAction="#handleShowSearch"/>
+                <MenuItem text="Settings" onAction="#handleShowSettings"/>
+            </Menu>
+            <Menu text="Help">
+                <MenuItem text="Documentation" onAction="#handleShowDocs"/>
+                <MenuItem text="About" onAction="#handleShowAbout"/>
+            </Menu>
+        </MenuBar>
+    </top>
+
+    <!-- Left Sidebar -->
+    <left>
+        <VBox styleClass="sidebar">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            
+            <Label text="Network Interfaces" styleClass="sidebar-header"/>
+            <ComboBox fx:id="interfaceComboBox" VBox.vgrow="ALWAYS"/>
+            
+            <Label text="Capture Settings" styleClass="sidebar-header"/>
+            <TextField fx:id="packetCountField" promptText="Packet Count" text="50"/>
+            <TextField fx:id="filterField" promptText="BPF Filter" text="tcp"/>
+            
+            <HBox spacing="10">
+                <Button fx:id="startButton" text="Start Capture" onAction="#handleStartCapture" 
+                        styleClass="primary-button"/>
+                <Button fx:id="stopButton" text="Stop Capture" onAction="#handleStopCapture" 
+                        styleClass="danger-button" disable="true"/>
+            </HBox>
+            
+            <Separator/>
+            
+            <Label text="Quick Filters" styleClass="sidebar-header"/>
+            <VBox spacing="5">
+                <Button text="HTTP Traffic" onAction="#handleFilterHTTP" styleClass="filter-button"/>
+                <Button text="DNS Queries" onAction="#handleFilterDNS" styleClass="filter-button"/>
+                <Button text="Suspicious Traffic" onAction="#handleFilterSuspicious" styleClass="filter-button"/>
+            </VBox>
+        </VBox>
+    </left>
+
+    <!-- Main Content Area -->
+    <center>
+        <TabPane>
+            <Tab text="Packet List" closable="false">
+                <TableView fx:id="packetTableView" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="timestampCol" text="Timestamp"/>
+                        <TableColumn fx:id="sourceCol" text="Source"/>
+                        <TableColumn fx:id="destCol" text="Destination"/>
+                        <TableColumn fx:id="protocolCol" text="Protocol"/>
+                        <TableColumn fx:id="sizeCol" text="Size"/>
+                        <TableColumn fx:id="flagsCol" text="Flags"/>
+                        <TableColumn fx:id="malwareCol" text="Malware Status"/>
+                    </columns>
+                </TableView>
+            </Tab>
+            
+            <Tab text="Statistics" closable="false">
+                <VBox spacing="10">
+                    <padding>
+                        <Insets top="10" right="10" bottom="10" left="10"/>
+                    </padding>
+                    
+                    <HBox spacing="20">
+                        <VBox styleClass="stat-box">
+                            <Label text="Total Packets" styleClass="stat-label"/>
+                            <Label fx:id="totalPacketsLabel" text="0" styleClass="stat-value"/>
+                        </VBox>
+                        <VBox styleClass="stat-box">
+                            <Label text="Total Traffic" styleClass="stat-label"/>
+                            <Label fx:id="totalTrafficLabel" text="0 MB" styleClass="stat-value"/>
+                        </VBox>
+                        <VBox styleClass="stat-box">
+                            <Label text="Capture Duration" styleClass="stat-label"/>
+                            <Label fx:id="durationLabel" text="00:00:00" styleClass="stat-value"/>
+                        </VBox>
+                    </HBox>
+                    
+                    <LineChart fx:id="trafficChart" title="Traffic Over Time">
+                        <xAxis>
+                            <CategoryAxis label="Time"/>
+                        </xAxis>
+                        <yAxis>
+                            <NumberAxis label="Bytes"/>
+                        </yAxis>
+                    </LineChart>
+                    
+                    <PieChart fx:id="protocolChart" title="Protocol Distribution"/>
+                </VBox>
+            </Tab>
+            
+            <Tab text="Conversations" closable="false">
+                <TableView fx:id="conversationTableView" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="convSourceCol" text="Source"/>
+                        <TableColumn fx:id="convDestCol" text="Destination"/>
+                        <TableColumn fx:id="convProtocolCol" text="Protocol"/>
+                        <TableColumn fx:id="convPacketsCol" text="Packets"/>
+                        <TableColumn fx:id="convBytesCol" text="Bytes"/>
+                        <TableColumn fx:id="convDurationCol" text="Duration"/>
+                    </columns>
+                </TableView>
+            </Tab>
+        </TabPane>
+    </center>
+
+    <!-- Bottom Status Bar -->
+    <bottom>
+        <HBox styleClass="status-bar">
+            <padding>
+                <Insets top="5" right="10" bottom="5" left="10"/>
+            </padding>
+            <Label fx:id="statusLabel" text="Ready"/>
+            <Region HBox.hgrow="ALWAYS"/>
+            <Label fx:id="captureStatusLabel" text="Not Capturing"/>
+        </HBox>
+    </bottom>
+</BorderPane> 
